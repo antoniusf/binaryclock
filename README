@@ -1,0 +1,17 @@
+This program is a simulation of an RGB-LED binary clock. It uses
+binary notation for displaying the time and mixes the colors for
+each bit. Red means hours, green minutes and blue seconds. Pressing
+p pauses the clock, pressing it again continues. Holding h, m or s
+shows only hours, minutes or seconds. Help can also be found in
+binaryclock.png. Have fun with this clock!
+
+Prerequisites:
+Python 2.6
+pygame
+
+All files have to be in the same directory.
+
+Under Linux, open a terminal, change to the directory where the files are lying and execute "chmod+x binaryclock.py" to make it executable.
+Then just type "./binaryclock" to run it. If this doesn't work, try out "python binaryclock.py".
+
+Under Windows, right click on binaryclock.py and select "Edit with IDLE". Then press F5 to execute it.
